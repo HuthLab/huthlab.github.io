@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="static/base.css">
+<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<!--<script type="text/javascript" src="index.js"></script>-->
+<style>
+html {
+--theme-color: #ff6562;
+}
+</style>
+ 
+<title>HuthLab research</title>
+</head>
+<body>
+<div id='header'>
+<div id='title'>HuthLab <span class='titledivider'>|</span> <span class='titlesub'>research</span></div>
+<div id='nav'>
+<ul>
+
+<li><a href=index.html>home</a></li>
+
+<li><a href=people.html>people</a></li>
+
+<li><a href=research.html>research</a></li>
+
+<li><a href=publications.html>publications</a></li>
+
+</ul>
+</div>
+</div>
+<div id='content'>
+
+Our research is broadly concerned with how the human brain processes and represents natural world. In particular, we want to understand how language is processed and represented by the cortex, and how those representations are grounded in other modalities.
+<p></p>
+The main method that we employ is the <emph>encoding model</emph>, a mathematical model that learns to predict how the brain will respond to new stimuli (such as language) based on large amounts of data. These models can then be tested for accuracy by checking how well they can predict responses in a new dataset that they were not trained on before. In general we train and test our encoding models using <emph>natural stimuli</emph> such as narrative stories or books. Together, encoding models and natural stimuli give a natural gradient along which research can progress: if we can build a model that is better able to predict the brain, then we have gained some understanding of how the brain works.
+<p></p>
+This work employs a wide variety of tools drawn from machine learning, natural language processing, applied mathematics, computer graphics, physics, and neuroscience. To stay on the cutting edge of these technologies, one focus of this lab is also to develop new tools and apply them to neuroscience problems. It is our long-term goal to use the neuroscience data and results to build better algorithms and smarter machines.
+<div class='subheading'>Language Semantics</div>
+How is the meaning of language represented in the human brain? In earlier work we explored <a href='http://dx.doi.org/10.1038/nature17637'>representations of meaning at the scale of single words</a>, revealing complex maps across association cortex. We now aim to use similar technology to explore how phrases and sentences, not just single words, are represented by activity in the human cortex.
+<p></p>
+Although our previous work used one of the largest language datasets ever collected on single subjects using fMRI, even that amount of data is much too small to test models of language understanding that incorporate the relationships between words, which give rise to context and compositionality. Thus, one of our major aims is to collect incredibly, unprecedentedly large datasets from single subjects. This will enable us to test large-scale nonlinear models that have never before been used to predict human fMRI data.
+<div class='subheading'>Grounded Language Representations</div>
+Language serves as a gateway to cognition. Words have the capacity to elicit incredibly complex cognitive processing in our heads, giving experimental access to many different aspects of cognition. Thus, by studying how the brain represents the meaning of language we can simultaneously explore how and where in the cortex many different cognitive processes function. We are particularly interested in the interplay between language and other modalities, such as spatial reasoning, visual processing, and somatosensory processing.
+
+</div>
+<div id='footer'>
+<div class='left'>
+<div>University of California, Berkeley</div>
+<ul>
+<li><a href='http://berkeley.edu'>UCB Home</a></li>
+<li><a href='https://neuroscience.berkeley.edu/'>UCB Neuroscience</a></li>
+<li><a href='https://statistics.berkeley.edu/'>UCB Statistics</a></li>
+</ul>
+</div>
+<div class='right'>
+<div>Contact</div>
+<ul>
+<li><a href='mailto:alex.huth@berkeley.edu'>Email</a></li>
+<li><a href='https://twitter.com/huthlab'>Twitter</a></li>
+</ul>
+</div>
+ 
+<div id='copyright'>&copy; Huth Lab | University of California, Berkeley</div>
+</div>
+</body>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', , 'auto');
+ga('send', 'pageview');
+</script>
+</html>
